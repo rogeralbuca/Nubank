@@ -1,55 +1,21 @@
-<!--
-*** Obrigado por estar vendo o nosso README. Se você tiver alguma sugestão
-*** que possa melhorá-lo ainda mais dê um fork no repositório e crie uma Pull
-*** Request ou abra uma Issue com a tag "sugestão".
-*** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
--->
-
-<!-- PROJECT SHIELDS -->
-
-[![npm](https://img.shields.io/npm/v/react-native-template-rocketseat-basic.svg?label=npm%20package)](https://www.npmjs.com/package/react-native-template-rocketseat-basic)
-[![npm](https://img.shields.io/npm/dt/react-native-template-rocketseat-basic.svg)](https://www.npmjs.com/package/react-native-template-rocketseat-basic)
-[![GitHub issues](https://img.shields.io/github/issues-raw/rocketseat/react-native-template-rocketseat-basic.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-basic/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/rocketseat/react-native-template-rocketseat-basic.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-basic/commits/master)
-[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-basic.svg)](https://choosealicense.com/licenses/mit)
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src="https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo_roxa.png" alt="Logo">
-  </a>
-
-  <h3 align="center">Template Rocketseat Basic</h3>
-</p>
-
 <!-- TABLE OF CONTENTS -->
 
 ## Tabela de Conteúdo
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
+- [Tabela de Conteúdo](#tabela-de-conteúdo)
 - [Sobre o Projeto](#sobre-o-projeto)
-  - [Feito Com](#feito-com)
-- [Começando](#come%C3%A7ando)
-  - [Pré-requisitos](#pr%C3%A9-requisitos)
-  - [Estrutura de Arquivos](#estrutura-de-arquivos)
-  - [Instalação](#instala%C3%A7%C3%A3o)
-    - [Passo Adicional no Android](#passo-adicional-no-android)
-  - [Edição](#edi%C3%A7%C3%A3o)
-  - [Publicação](#publica%C3%A7%C3%A3o)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
+  - [Desenvolvido Com](#desenvolvido-com)
+  - [Edição](#edição)
 - [Contato](#contato)
-
-<!-- ABOUT THE PROJECT -->
+- [Agradecimentos](#agradecimentos)
 
 ## Sobre o Projeto
 
-Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
+Projeto App Nubank desenvolvido por meio de vídeo-aula Rocketseat, e aprimorado em estudos de React Native;
 
-### Feito Com
+### Desenvolvido Com
 
-Abaixo segue o que foi utilizado na criação deste template:
+Abaixo segue o que foi utilizado na criação deste projeto:
 
 - [React Native](http://facebook.github.io/react-native/) - O React Native é um framework que permite o desenvolvimento de aplicações mobile usando Javascript e React;
 - [React Navigation](https://reactnavigation.org/) - O React Navigation surgiu da necessidade comunidade do React Native de uma navegação de forma fácil de se usar, e escrita toda em Javascript;
@@ -70,103 +36,11 @@ Abaixo segue o que foi utilizado na criação deste template:
   - [eslint-import-resolver-babel-plugin-root-import](https://github.com/olalonde/eslint-import-resolver-babel-root-import) - Um resolver da lib _babel-root-import_ para a lib _eslint-plugin-import_;
 - [EditorConfig](https://editorconfig.org/) - O EditorConfig é um formatador de arquivos e coleções em forma de Plugin para Editores de código/texto com o objetivo de manter um padrão de código consistente entre diferentes editores, IDE's ou ambientes;
 
-<!-- GETTING STARTED -->
-
-## Começando
-
-Para conseguir utilizar o template, seja através do React Native CLI ou com uma cópia local dos arquivos, siga os passos abaixo.
-
-### Pré-requisitos
-
-Antes de seguirmos para as configurações e uso do template, é ideal que você tenha o ambiente configurado para criar e testar aplicativos em React Native, para isso você pode seguir o guia do link abaixo:
-
-[Ambiente React Native (Android/iOS)](https://github.com/Rocketseat/ambiente-react-native)
-
-### Estrutura de Arquivos
-
-A estrutura de arquivos está da seguinte maneira:
-
-```bash
-rocketseat-basic
-├── src/
-│   ├── config/
-│   │   └── ReactotronConfig.js
-│   ├── images/
-│   │   ├── rocketseat_logo_roxa.png
-│   │   └── rocketseat_logo.png
-│   ├── pages/
-│   │   └── Main/
-│   │       └── index.js
-│   ├── services/
-│   │   └── api.js
-│   ├── index.js
-│   └── routes.js
-├── .editorconfig
-├── .eslintrc.json
-├── .gitignore
-├── babel.config.js
-├── dependencies.json
-├── devDependencies.json
-├── index.js
-├── jsconfig.js
-├── LICENSE
-├── package.json
-└── README.md
-```
-
-Serão explicados os arquivos e diretórios na seção de [Edição](#edição).
-
-### Instalação
-
-1. Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
-
-```sh
-react-native init AwesomeExample --template rocketseat-basic
-```
-
-2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
-
-Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
-
----
-
-#### Passo Adicional no Android
-
-Para que os gestos sejam habilitados no Android é necessário um passo a mais, que é bem simples, abra o arquivo `android/app/src/main/java/<pacote_do_projeto>/MainActivity.java`, e começe importando os pacotes como abaixo:
-
-```java
-// ...
-import com.facebook.react.ReactActivity;
-// Importações adicionadas
-import com.facebook.react.ReactActivityDelegate;
-import com.facebook.react.ReactRootView;
-import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
-```
-
-Feito a importação vamos criar um método novo, logo abaixo do `getMainComponentName()`, ficando:
-
-```java
-public class MainActivity extends ReactActivity {
-  @Override
-  protected String getMainComponentName() { ... }
-  // Método adicionado
-  @Override
-  protected ReactActivityDelegate createReactActivityDelegate() {
-    return new ReactActivityDelegate(this, getMainComponentName()) {
-      @Override
-      protected ReactRootView createRootView() {
-        return new RNGestureHandlerEnabledRootView(MainActivity.this);
-      }
-    };
-  }
-}
-```
-
----
-
 ### Edição
 
 Nesta seção haverão instruções caso você queira editar o template, explicando para que os diretórios são utilizadas e também os arquivos de configuração.
+
+- **assets/fonts** - Diretório contendo o arquivo fonte `ttf` com os icones personalizados do projeto;
 
 - **src** - Diretório contendo todos os arquivos da aplicação, é criado um diretório `src` para que o código da aplicação possa ser isolado em um diretório e facilmente portado para outros projetos, se necessário;
 
@@ -206,50 +80,14 @@ Nesta seção haverão instruções caso você queira editar o template, explica
 
 - **package.json** - Diferente dos projetos comuns, esse arquivo tem as configurações necessárias para a publicação do Template no NPM, para saber mais sobre isso veja a seção abaixo.
 
-### Publicação
-
-Para publicar um template como esse o processo bastante simples e rápido.
-
-1. Crie uma conta no [site do NPM](https://www.npmjs.com/);
-
-2. Com a conta criada execute o comando abaixo e insira suas credenciais;
-
-```sh
-npm login
-```
-
-3. Basta abrir o arquivo `package.json` e modificar as informações de acordo com o seu template, mas as informações mais importantes são duas, o `name` e o `version`, que são os únicos que tem restrições, seguem abaixo as restrições:
-
-   1. O `name` sempre deve começar com o prefixo `react-native-template-` seguido do nome do seu template;
-   2. O template deve ser publicado em uma conta pessoal, pois quando publicado em uma **Organization** é acrescentado o prefixo `@<nome_da_organization>` no nome do pacote;
-   3. O `name` deve ser único, não podendo ser igual ao de um template já publicado;
-   4. A `version` deve ser atualizada a cada publicação, se o template está na versão **0.0.1** e é preciso publicar uma atualização no mesmo, a `version` deve ser diferente e superior a versão atual, por exemplo, **0.0.2**;
-
-4. Após configurar corretamente o `package.json` basta executar no terminal/prompt o comando `npm publish`;
-
-5. Com a publicação finalizada o template deve ficar disponível através do link `https://www.npmjs.com/package/react-native-template-<nome_do_template>`.
-
-<!-- CONTRIBUTING -->
-
-## Contribuição
-
-Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/FeatureIncrivel`)
-3. Adicione suas mudanças (`git add .`)
-4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
-5. Faça o Push da Branch (`git push origin feature/FeatureIncrivel`)
-6. Abra uma Pull Request
-
-<!-- LICENSE -->
-
-## Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-<!-- CONTACT -->
-
 ## Contato
+
+Roger Albuquerque - **albuquerque.roger@gmail.com**
+
+## Agradecimentos
+
+Faça mais do que o esperado e corra a `Milha Extra`;
+
+Diego Fernandes - [Github](https://github.com/diego3g) -**diego.schell.f@gmail.com**
 
 Rocketseat - [Github](https://github.com/rocketseat) - **oi@rocketseat.com.br**
