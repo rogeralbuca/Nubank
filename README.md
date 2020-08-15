@@ -6,12 +6,21 @@
 - [Sobre o Projeto](#sobre-o-projeto)
   - [Desenvolvido Com](#desenvolvido-com)
   - [Edição](#edição)
+- [Fontes](#fontes)
 - [Contato](#contato)
 - [Agradecimentos](#agradecimentos)
 
 ## Sobre o Projeto
 
-Projeto App Nubank desenvolvido por meio de vídeo-aula Rocketseat, e aprimorado em estudos de React Native;
+Projeto App Nubank desenvolvido por meio de vídeo-aula Rocketseat, e aprimorado em estudos de React Native, neste projeto foram usadas as seguintes tecnologias: React Native, React Navigation, React Native Gesture Handler, React Native Vector Icons, styled-components, react-native-iphone-x-helper e react-native-svg.
+
+App icon         |  Card
+:-------------------------:|:-------------------------:
+![](/assets/images/Screenshot_1.jpg) | ![Screenshot](/assets/images/Screenshot_2.jpg)
+
+Menu            |  Tabs
+:-------------------------:|:-------------------------:
+![](/assets/images/Screenshot_3.jpg) | ![Screenshot](/assets/images/Screenshot_4.jpg)
 
 ### Desenvolvido Com
 
@@ -38,13 +47,17 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 
 ### Edição
 
-Nesta seção haverão instruções caso você queira editar o template, explicando para que os diretórios são utilizadas e também os arquivos de configuração.
+Nesta seção haverão instruções explicando para que os diretórios são utilizadas e também os arquivos de configuração.
 
 - **assets/fonts** - Diretório contendo o arquivo fonte `ttf` com os icones personalizados do projeto;
 
 - **src** - Diretório contendo todos os arquivos da aplicação, é criado um diretório `src` para que o código da aplicação possa ser isolado em um diretório e facilmente portado para outros projetos, se necessário;
 
   - **config** - Diretório para guardar os arquivos de configuração da aplicação, por exemplo, a configuração de uso do Reactotron e configuração de inicialização do Firebase;
+
+    - **config.js** - Arquivo contendo a configuração dos `Fontello` para ser usado na aplicação;
+
+    - **loadFonts.js** - Arquivo contendo a configuração de todas as `fontes` usadas na aplicação;
 
     - **ReactotronConfig.js** - Arquivo contendo a configuração do Reactotron para ser usado na aplicação;
 
@@ -78,7 +91,30 @@ Nesta seção haverão instruções caso você queira editar o template, explica
 
 - **jsconfig.json** - Arquivo de configuração do Javascript no Editor, ele é o responsável por ativar o Auto Complete de códigos Javascript na aplicação;
 
-- **package.json** - Diferente dos projetos comuns, esse arquivo tem as configurações necessárias para a publicação do Template no NPM, para saber mais sobre isso veja a seção abaixo.
+- **package.json** - Diferente dos projetos comuns, esse arquivo tem as configurações necessárias para a publicação da aplicação no NPM.
+
+## Fontes
+
+Nubank Logotipos
+**https://nubank.com.br/imprensa/**
+
+Inspiração
+**https://www.behance.net/gallery/101082529/Atualizacao-de-interface?tracking_source=search_projects_recommended%7CNubank%20icon**
+
+Change App Icon in React Native for Android and iOS
+**https://aboutreact.com/react-native-change-app-icon/**
+
+App Icon Generato
+**https://appicon.co/**
+
+A SVG to React Transformer
+**https://react-svgr.com/playground/?native=true**
+
+Add Custom Icons to your React Native Application
+**https://blog.bam.tech/developer-news/add-custom-icons-to-your-react-native-application**
+
+Flexbox Playground and Code Generator
+**https://the-echoplex.net/flexyboxes/**
 
 ## Contato
 
