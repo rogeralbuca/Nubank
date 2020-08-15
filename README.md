@@ -7,13 +7,13 @@
   - [Desenvolvido Com](#desenvolvido-com)
   - [Edição](#edição)
 - [Fontes](#fontes)
-      - [Nubank Logotipos](#nubank-logotipos)
-      - [Inspiração](#inspiração)
-      - [Change App Icon in React Native for Android and iOS](#change-app-icon-in-react-native-for-android-and-ios)
-      - [App Icon Generato](#app-icon-generato)
-      - [A SVG to React Transformer](#a-svg-to-react-transformer)
-      - [Add Custom Icons to your React Native Application](#add-custom-icons-to-your-react-native-application)
-      - [Flexbox Playground and Code Generator](#flexbox-playground-and-code-generator)
+    - [Nubank Logotipos](#nubank-logotipos)
+    - [Inspiração](#inspiração)
+    - [Change App Icon in React Native for Android and iOS](#change-app-icon-in-react-native-for-android-and-ios)
+    - [App Icon Generato](#app-icon-generato)
+    - [A SVG to React Transformer](#a-svg-to-react-transformer)
+    - [Add Custom Icons to your React Native Application](#add-custom-icons-to-your-react-native-application)
+    - [Flexbox Playground and Code Generator](#flexbox-playground-and-code-generator)
 - [Contato](#contato)
 - [Agradecimentos](#agradecimentos)
 
@@ -102,25 +102,25 @@ Nesta seção haverão instruções explicando para que os diretórios são util
 
 ## Fontes
 
-##### Nubank Logotipos
+#### Nubank Logotipos
 **https://nubank.com.br/imprensa/**
 
-##### Inspiração
+#### Inspiração
 **https://www.behance.net/gallery/101082529/Atualizacao-de-interface?tracking_source=search_projects_recommended%7CNubank%20icon**
 
-##### Change App Icon in React Native for Android and iOS
+#### Change App Icon in React Native for Android and iOS
 **https://aboutreact.com/react-native-change-app-icon/**
 
-##### App Icon Generato
+#### App Icon Generato
 **https://appicon.co/**
 
-##### A SVG to React Transformer
+#### A SVG to React Transformer
 **https://react-svgr.com/playground/?native=true**
 
-##### Add Custom Icons to your React Native Application
+#### Add Custom Icons to your React Native Application
 **https://blog.bam.tech/developer-news/add-custom-icons-to-your-react-native-application**
 
-##### Flexbox Playground and Code Generator
+#### Flexbox Playground and Code Generator
 **https://the-echoplex.net/flexyboxes/**
 
 ## Contato
