@@ -7,7 +7,7 @@
   - [Desenvolvido Com](#desenvolvido-com)
   - [Edição](#edição)
 - [Fontes](#fontes)
-    - [Nubank Logotipos](#nubank-logotipos)
+    - [Nubank Press Kit e Guia da Marca (Cores, SVG, Telas, Icoens, Fotos)](#nubank-press-kit-e-guia-da-marca-cores-svg-telas-icoens-fotos)
     - [Inspiração](#inspiração)
     - [Change App Icon in React Native for Android and iOS](#change-app-icon-in-react-native-for-android-and-ios)
     - [App Icon Generato](#app-icon-generato)
@@ -102,7 +102,7 @@ Nesta seção haverão instruções explicando para que os diretórios são util
 
 ## Fontes
 
-#### Nubank Logotipos
+#### Nubank Press Kit e Guia da Marca (Cores, SVG, Telas, Icoens, Fotos)
 **https://nubank.com.br/imprensa/**
 
 #### Inspiração
